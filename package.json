@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd ./server && npm run dev",
-    "start": "cd ./ server && mpm start"
+    "start": "cd ./ server && mpm start",
+    "install": "cd ./server && npm i"
   },
   "keywords": [],
   "author": "",
