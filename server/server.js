@@ -8,7 +8,7 @@ const api_routes = require('./routes/api_routes');
 const auth_routes = require('./routes/auth_routes');
 
 const app = express();
-const PORT = 3333 || process.env.PORT;
+const PORT = process.env.PORT || 3333;
 
 // Create a GET route for every file inside of client
 app.use(express.static('../client'));
