@@ -3,6 +3,7 @@ body {
     background: rgb(26, 23, 24);
     color: rgb(244, 221, 231);
     font-family: sans-serif;
+    padding: 45px 5%
 }
 
 /* GLOBAL CLASSES */
